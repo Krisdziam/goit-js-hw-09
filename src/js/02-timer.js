@@ -4,10 +4,6 @@ import Notiflix from 'notiflix';
 
 const inputEl = document.querySelector('#datetime-picker')
 const startBtn = document.querySelector('[data-start]')
-const days = document.querySelector('[data-days]')
-const hours = document.querySelector('[data-hours]')
-const minutes = document.querySelector('[data-minutes]')
-const seconds = document.querySelector('[data-seconds]')
 const calendar = document.querySelector('.timer');
 
 
