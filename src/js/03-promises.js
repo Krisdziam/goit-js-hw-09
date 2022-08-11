@@ -34,4 +34,5 @@ function onSubmitStart(event){
       });
       delayInput += Number(step.value);
   }
+  event.target.reset()
 }
