@@ -5,6 +5,7 @@ function getRandomHexColor() {
 const startBtn = document.querySelector('[data-start]')
 const closeBtn = document.querySelector('[data-stop]')
 const body = document.querySelector('body')
+let intervalId = null;
 
  
 function colorSwitcher (){
@@ -15,6 +16,7 @@ function colorSwitcher (){
   startBtn.disabled = true;
   // startBtn.removeEventListener('click',colorSwitcher)
 }
+
 
 function disableColorSwitcher (){
  
